@@ -28,7 +28,7 @@ install(TARGETS win-manifests
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
 install(EXPORT  win-manifests
-    FILE win-manifests.cmake
+    FILE win-manifestsConfig.cmake
     NAMESPACE win-manifests::
     DESTINATION share/win-manifests
 )
