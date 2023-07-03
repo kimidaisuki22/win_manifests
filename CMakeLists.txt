@@ -9,11 +9,13 @@ target_sources(win-manifests INTERFACE
 "$<INSTALL_INTERFACE:share/win-manifests/heapType.manifest>"
 "$<INSTALL_INTERFACE:share/win-manifests/dpiAwareness.manifest>"
 "$<INSTALL_INTERFACE:share/win-manifests/osVersion.manifest>"
+"$<INSTALL_INTERFACE:share/win-manifests/longPathAwareness.manifest>"
 # "$<INSTALL_INTERFACE:share/win-manifests/opt-trustinfo.manifest>"
 "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/utf-8.manifest>"
 "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/heapType.manifest>"
 "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/dpiAwareness.manifest>"
 "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/osVersion.manifest>"
+"$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/longPathAwareness.manifest>"
 # "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/opt-trustinfo.manifest>"
 )
 endif()
